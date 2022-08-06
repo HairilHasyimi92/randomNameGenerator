@@ -11,19 +11,19 @@ const charChar = ['theSlayer', 'witchKiller', 'theHunter', 'theSaviour'];
 
 
 function getRandomCharIndex(){
-    return Math.floor(Math.random()*20);
+    return Math.floor(Math.random()*(charNames.length));
 }
 
 let i = getRandomCharIndex();
 
 function getRandomTitleIndex(){
-    return Math.floor(Math.random()*7);
+    return Math.floor(Math.random()*(charTitle.length));
 }
 
 let j = getRandomTitleIndex();
 
 function getRandomCharCharIndex(){
-    return Math.floor(Math.random()*4);
+    return Math.floor(Math.random()*(charChar.length));
 }
 
 let k = getRandomCharCharIndex();
